@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <!-- UIkit CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.3.0/dist/css/uikit.min.css" />
+    <link rel="stylesheet" href="mystyles.css" type="text/css">
+    <!-- UIkit JS -->
+<script src="https://cdn.jsdelivr.net/npm/uikit@3.3.0/dist/js/uikit.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/uikit@3.3.0/dist/js/uikit-icons.min.js"></script>
+</head>
+<body>
+    
+    
+    <div uk-sticky="sel-target: .uk-navbar-container; cls-active: uk-navbar-sticky; bottom: #sticky-navbar" >
+        <nav class="uk-navbar-container" uk-navbar style="position: relative; z-index: 980;background-color: #619fe4;">
+            <div class="uk-navbar-center">
+                <div class="uk-navbar-center">
+                <div>
+                    <ul class="uk-navbar-nav">
+                        <li><a href="#speaker">Speakers</a></li>
+                        <li><a href="#agenda">Agenda</a></li>
+                        <li><a href="#tickets">Tickets</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+            </div>
+        </nav>
+    </div>
+
+    <div class="uk-child-width-expand@s" uk-grid style="height: 300px;margin-top: 2%;" id="abc">
+        <div class="uk-grid-item-match ">
+            <div class="uk-card uk-card-default uk-card-body sj" style="padding-top: 15%;">
+                <h1 style="text-align: center;font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif">STUDY JAM</h1>
+            </div>
+         </div>
+        <div>
+            <section style="margin-top: 16px;">
+                <h3>Venue</h3>
+                <hr class="new">
+                <p>
+                    3rd Floor, Redbrick Tex Center, E-Wing Chandivali, Saki Village, Chandivali Farm Road, Mumbai, Maharashtra - 400072
+                </p> 
+            </section>
+            <section style="margin-top: 16px;">
+                <h3>Time</h3>
+                <hr class="new">
+                <p>
+                    2<sup>nd</sup> Feb 2020 <br>
+                    10:30 AM - 5:00 PM IST
+                </p> 
+            </section>
+        </div>
+    </div>  
+    <div style="margin-top: 16px;">
+        
+        <h2 style="text-align: center;">Event Description</h2>
+        <hr class="xyz">
+        <p style="text-align: center;font-size: 20px;font-style: italic;">
+            -Understand end to end how to utilise UI-Kits effectively by making a small app with a UI kit instead of native frameworks.
+        </p>
+    </div>
+
+    <div style="margin: 5%;background-color:#e9edf1;padding: 0 3% 2%;" id="speaker">
+
+        <h2 style="text-align: center;padding-top:2%;">Speakers</h2>
+    <div class="uk-card uk-card-default uk-grid-collapse uk-child-width-1-2@s uk-margin" uk-grid>
+        <div class="uk-card-media-left uk-cover-container">
+            <img src="images/speaker1.jpg" class="speaker1" alt="" uk-cover>
+            <canvas width="600" height="300"></canvas>
+        </div>
+        <div>
+            <div class="uk-card-body">
+                <h3 class="uk-card-title">Nikhil</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
+            </div>
+        </div>
+    </div>
+    
+    <div class="uk-card uk-card-default uk-grid-collapse uk-child-width-1-2@s uk-margin" uk-grid>
+        <div class="uk-flex-last@s uk-card-media-right uk-cover-container">
+            <img src="images/speaker2.jpg" class="speaker1" alt="" uk-cover>
+            <canvas width="600" height="300"></canvas>
+        </div>
+        <div>
+            <div class="uk-card-body">
+                <h3 class="uk-card-title">Supriya</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
+            </div>
+        </div>
+    </div>
+    </div>
+        
+
+    <div style="margin: 5%;background-color: #e9edf1;padding: 0 3% 2%;" id="agenda">
+        
+        <h2 style="text-align: center;padding-top:2%;">Agenda</h2>
+        <ul uk-accordion>
+            <li class="agendatitle">
+                <a class="uk-accordion-title clr" href="#">10:30 AM - 11:30 AM</a>
+                <div class="uk-accordion-content iclr" >
+                    <p>-Mentor gives an onboarding on how to utilise UI kit effectively.</p>
+                </div>
+            </li>
+            <li class="agendatitle" >
+                <a class="uk-accordion-title clr" href="#">11:30 AM - 01:30 PM</a>
+                <div class="uk-accordion-content iclr">
+                    <p>-The participants are divided into teams. They are provided with the website description. They are asked to use UI-kit to build the website.</p>
+                </div>
+            </li>
+            <li class="agendatitle">
+                <a class="uk-accordion-title clr" href="#">01:30 PM - 02:00 PM</a>
+                <div class="uk-accordion-content iclr">
+                    <p>-Lunch Time</p>
+                </div>
+            </li>
+            <li class="agendatitle" >
+                <a class="uk-accordion-title clr" href="#">02:00 PM - 04:00 PM</a>
+                <div class="uk-accordion-content iclr">
+                    <p>-Continuation of the activity.</p>
+                </div>
+            </li>
+            <li class="agendatitle">
+                <a class="uk-accordion-title clr" href="#">04:00 PM - 04:30 PM</a>
+                <div class="uk-accordion-content iclr">
+                    <p>-Team presentation of 5 mins each. Towards the end, the mentor will summarize and provide feedback.</p>
+                </div>
+            </li>
+        </ul>
+        </div>
+
+
+        <div class="uk-child-width-expand@s" uk-grid style="height: 300px;margin:16px 0 16px 32px" id="tickets">
+            <div class="uk-grid-item-match">
+                <div class="uk-card uk-card-default uk-card-body" style="padding-top: 5%; background-color: #e9edf1;">
+                    
+
+                    <div class="uk-child-width-1-2 uk-child-width-2-4@s uk-grid-match" uk-grid>
+                        <div class="uk-animation-toggle" tabindex="0">
+                            <div class="uk-card uk-card-default uk-card-body uk-animation-scale-down">
+                                <img class="uk-text-center" src="./images/Free Free Free.jpg">
+                            </div>
+                        </div>
+                        <div class="uk-animation-toggle" tabindex="0">
+                            <div class="uk-card uk-card-default uk-card-body" style="text-align: center;padding-top: 30%;">
+                                <button class="uk-button uk-button-primary uk-button-large">Book Now</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+             </div>
+            <div style="margin-top: 3%;;">
+                <section style="margin-top: 16px; ">
+                    <h2 style="text-align: center;font-weight: bold;font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;">
+                        Registration will close in.
+                    </h2> 
+                </section>
+                <section style="margin-top: 16px;">
+                <section style="margin-top: 16px; padding-left: 50px;">
+                    <div class="uk-grid-small uk-child-width-auto" uk-grid uk-countdown="date: 2020-02-09T20:55:54+00:00">
+                        <div>
+                            <div class="uk-countdown-number uk-countdown-days"></div>
+                            <div class="uk-countdown-label uk-margin-small uk-text-center uk-visible@s">Days</div>
+                        </div>
+                        <div class="uk-countdown-separator">:</div>
+                        <div>
+                            <div class="uk-countdown-number uk-countdown-hours"></div>
+                            <div class="uk-countdown-label uk-margin-small uk-text-center uk-visible@s">Hours</div>
+                        </div>
+                        <div class="uk-countdown-separator">:</div>
+                        <div>
+                            <div class="uk-countdown-number uk-countdown-minutes"></div>
+                            <div class="uk-countdown-label uk-margin-small uk-text-center uk-visible@s">Minutes</div>
+                        </div>
+                        <div class="uk-countdown-separator">:</div>
+                        <div>
+                            <div class="uk-countdown-number uk-countdown-seconds"></div>
+                            <div class="uk-countdown-label uk-margin-small uk-text-center uk-visible@s">Seconds</div>
+                        </div>
+                    </div>  
+                </section>
+            </div>
+        </div>
+
+
+
+
+        <footer style="padding-top:2%;" id="contact">
+
+            <div  class="uk-grid-collapse uk-child-width-expand@s uk-text-center uk-margin-large-top" uk-grid >
+                <div>
+                    <div class="uk-background-primary uk-padding uk-light" style="height: 300px;">
+                        <h3>
+                            Contact Us
+                        </h3>
+                        <hr style="color: gray;">
+                        <ul class="uk-list">
+                            <li><span class="uk-margin-small-right" uk-icon="receiver"></span>+91 9999999999</li>
+                            <li><span class="uk-margin-small-right" uk-icon="mail"></span>xyz@gmail.com</li>
+                            <li><span class="uk-margin-small-right" uk-icon="location"></span>Mumbai-400072</li>
+                            <li style="margin-top: 30px;">
+                                <a href="" class="uk-icon-button uk-margin-small-right" uk-icon="twitter"></a>
+                                <a href="" class="uk-icon-button  uk-margin-small-right" uk-icon="facebook"></a>
+                                <a href="" class="uk-icon-button" uk-icon="google-plus"></a>
+                            </li>
+                        </ul>
+
+                        
+                            
+                        
+                    </div>
+                </div>
+                <div>
+                    <div class="uk-background-primary uk-padding uk-light" style="height: 300px;">
+                        <h3>
+                            About Us
+                        </h3>
+                        <hr style="color: gray;">
+                        <p>
+                            Lorem, ipsum dolor sit amet cote, ratione officiis nulla. In, recusandae.
+                        </p>
+
+                        <a style="margin-top: 120px; border: 2px solid white; border-radius: 50%; padding: 20px;" href="#abc" uk-totop uk-scroll></a>
+                    </div>
+                </div>
+                <div>
+                    <div class="uk-background-primary uk-padding uk-light" style="height: 300px;">
+                        
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d3769.901804933422!2d72.89023681437732!3d19.111963255808803!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sin!4v1580679358000!5m2!1sen!2sin" width="400" height="300" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+                    
+                    </div>
+                </div>
+            </div>
+
+        </footer>
+
+
+
+
+</body>
+</html>
+

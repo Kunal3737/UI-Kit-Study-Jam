@@ -1,0 +1,48 @@
+li > a
+{
+    color: white !important;
+}
+
+.sj {
+    background-image: url("./images/banner.jpg");
+    background-size: cover;
+}
+
+.sj > h1{
+    font-size: 50px;
+    color:white;
+    font-weight: bolder;
+}
+
+hr.new  {
+    border: 1px #619fe4 solid;
+    width: 95%;
+}
+
+.speaker1    {
+    /* height: fit-content; */
+    /* margin: 10px; */
+    height: 100% !important; 
+    width: 100% !important;
+}
+
+.clr    {
+    color: black !important;
+}
+
+.iclr   {
+    background-color: white;
+    color: black;
+    padding: 20px;
+}
+
+.xyz    {
+    width: 90%;
+    margin: 0 auto 0 auto;
+    border: 1px #619fe4 solid;
+}
+
+.agendatitle    {
+    background-color: #494d522b;
+    padding: 10px;
+}
